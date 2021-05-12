@@ -7793,8 +7793,6 @@ button.close {
 }
 
 .center-block {
-    width: 20%;
-    height: 20%;
     display: block;
     margin-right: auto;
     margin-left: auto
