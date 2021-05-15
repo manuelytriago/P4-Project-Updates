@@ -653,6 +653,15 @@ a {
     color: #b5b5b5;
 }
 
+.quote_size{
+    width: 86%;
+    height: 100%;
+
+}
+.images_size{
+    width: 100%;
+    height: 100%;
+}
 .webcolor{
     color: #575757 ;
 }
