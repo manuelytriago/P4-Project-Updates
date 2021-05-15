@@ -3022,6 +3022,13 @@ table th[class*=col-] {
 }
 
 @media screen and (max-width:767px) {
+
+    .mike_size{
+    width: 60%;
+    height: 60%;
+    }
+
+
     .table-responsive {
         width: 100%;
         margin-bottom: 15px;
@@ -3196,6 +3203,7 @@ input[type=search] {
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
+    
     input[type=date].form-control,
     input[type=time].form-control,
     input[type=datetime-local].form-control,
@@ -7682,7 +7690,7 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
+    background-color: #0009;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     border-radius: 10px
