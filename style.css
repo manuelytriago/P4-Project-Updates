@@ -751,6 +751,14 @@ h3 {
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
 }
+
+.portfolio {
+    text-transform:initial;
+    font-weight: 400;
+    line-height: 1.1;
+    font-size: 36px !important;
+}
+
 .customer_quote {
     font-weight: 100;
     line-height: 2;
