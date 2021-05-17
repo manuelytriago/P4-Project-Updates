@@ -939,6 +939,12 @@ h4 {
 }
 
 @media (max-width: 767px) {
+
+    .mike_size{
+        width: 60%;
+        height: 60%;
+        }
+    
     .page-container {
         overflow-x: hidden;
         position: relative;

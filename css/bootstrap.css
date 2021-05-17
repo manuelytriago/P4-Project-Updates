@@ -3023,12 +3023,6 @@ table th[class*=col-] {
 
 @media screen and (max-width:767px) {
 
-    .mike_size{
-    width: 60%;
-    height: 60%;
-    }
-
-
     .table-responsive {
         width: 100%;
         margin-bottom: 15px;
