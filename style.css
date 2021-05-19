@@ -21,7 +21,7 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
+    padding: 0px 50px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -30,8 +30,8 @@ a:hover {
 }
 
 .bloc .container {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .bloc-lg {
@@ -616,7 +616,7 @@ h1 {
     }
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
-        padding: 0 20px;
+        padding: 0px 20px;
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
     }
@@ -697,29 +697,29 @@ h1 {
     }
     
     .bloc {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     .bloc-xxl,
     .bloc-xl,
     .bloc-lg {
-        padding: 40px 0;
+        padding: 40px 0px;
     }
     .bloc-sm,
     .bloc-md {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     .bloc-tile-2 .container,
     .bloc-tile-3 .container,
     .bloc-tile-4 .container,
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     .a-block {
-        padding: 0 10px;
+        padding: 0px 10px;
     }
     .voffset {
         margin-top: 5px;
@@ -748,8 +748,8 @@ h1 {
         height: 30%;
         }
     .bloc {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }
 
