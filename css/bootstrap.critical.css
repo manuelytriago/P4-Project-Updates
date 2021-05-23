@@ -341,7 +341,6 @@ p {
 .col-lg-1,
 .col-lg-10,
 .col-lg-11,
-.col-lg-12,
 .col-lg-2,
 .col-lg-3,
 .col-lg-4,
@@ -353,7 +352,6 @@ p {
 .col-md-1,
 .col-md-10,
 .col-md-11,
-.col-md-12,
 .col-md-2,
 .col-md-3,
 .col-md-4,
@@ -365,7 +363,6 @@ p {
 .col-sm-1,
 .col-sm-10,
 .col-sm-11,
-.col-sm-12,
 .col-sm-2,
 .col-sm-3,
 .col-sm-4,
@@ -377,7 +374,6 @@ p {
 .col-xs-1,
 .col-xs-10,
 .col-xs-11,
-.col-xs-12,
 .col-xs-2,
 .col-xs-3,
 .col-xs-4,
@@ -392,6 +388,15 @@ p {
     padding-left: 15px
 }
 
+.col-sm-12,
+.col-xs-12,
+.col-md-12,
+.col-lg-12{
+position: relative;
+min-height: 1px;
+padding-right: 25%;
+padding-left: 25%
+}
 .col-xs-1,
 .col-xs-10,
 .col-xs-11,
