@@ -698,6 +698,8 @@ h1 {
         width: auto;
     }
     
+    
+
     .bloc {
         padding-left: 0px;
         padding-right: 0px;
@@ -871,3 +873,123 @@ a[data-lightbox]:hover img {
 .close-lightbox {
     display: inline-block;
 }
+
+.table_div {
+    display: flex;
+    flex-direction: row;
+    overflow-x:scroll;
+    margin: 2% 2% 2% 2%;
+    width: 96%;
+    height: 700px;
+}
+.data_table_flex{
+    width: 33%;
+
+}
+.data_table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width:96%
+}
+.data_table2 {
+    display: flex;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width:96%
+  }
+
+table{
+    width: 100%;
+    
+    }
+td , tr ,th{
+        border: 0.5px solid black;
+        }
+td {
+    text-align: center;
+}
+.text_align_left {
+    text-align: left;
+}
+
+.blue_background {
+background-color: steelblue;
+color: white;
+}
+.black_background{
+    background-color:black;
+    color: white;  
+} 
+.light_blue_background{
+    background-color:skyblue;
+    color: white;  
+}   
+.silver_background{
+    background-color:darkgrey;
+} 
+.blue_text{
+    color: darkblue;
+    font-weight: bold;
+} 
+
+
+@media (max-width: 760px)/*,
+(min-device-width: 768px) and (max-device-width: 1024px)*/  {
+
+    .table_div {
+        display: flex;
+        flex-direction: column;
+        overflow-x:scroll;
+        margin: 2% 2% 2% 2%;
+        width: 96%;
+        height: 700px;
+    }
+    .data_table_flex{
+        width: 100%;
+    
+    }
+    table, td , tr ,th{
+        border: 0.5px solid black;
+        }
+    
+    .data_table {
+        visibility: hidden;
+        display: none
+      }
+	
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr { border: 1px solid #ccc; }
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		/*padding-left: 50%; */
+	}
+	#picture{
+
+        width: 50%;
+        height: 50%;
+
+    }
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		/*padding-right: 10px; */
+		white-space: nowrap;
+	}
+}
+  
+  

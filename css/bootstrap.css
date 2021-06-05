@@ -3228,4 +3228,6 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .row:after {
     clear: both
 }
-
+table, td , tr ,th{
+    border: 0.5px solid black;
+    }
